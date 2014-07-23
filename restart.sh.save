@@ -1,0 +1,5 @@
+#!/bin/bash
+#ZoomHash restart script. Written by by Richard C.
+
+
+		sudo killall -9 minerd
