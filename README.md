@@ -1,8 +1,7 @@
-ZoomHash-Pi-Software
+ZoomHash Pi Software
 ====================
-
-<h2>Software for the company ZoomHash</h2>
-
+ZoomHash Pi Software is a complete solution for all your mining needs.<br />
+Works with both Gridseeds and ZeusMiners<br />
 <br />
 <br />
 <br />
@@ -14,10 +13,12 @@ The default password is: zoomhash
 
 
 Now you will need to exectue some simple commands, just copy and paste each line and you should be OK!<br /><br />
-cd /var/www<br />
-sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git<br />
-cd /var/www/ZoomHash-Pi-Software/<br />
-sudo ./update.sh<br />
+```
+cd /var/www
+sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
+cd /var/www/ZoomHash-Pi-Software
+sudo ./update.sh
+```
 
 <br />
 <br />
