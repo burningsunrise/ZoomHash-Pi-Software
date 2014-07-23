@@ -19,8 +19,22 @@ sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git<br />
 cd /var/www/ZoomHash-Pi-Software/<br />
 sudo ./update.sh<br />
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h2>Human Readable Changelog (7-23-14)</h2>
+<ul>
+<li>Removed unnecessary files<br /></li>
+<li>Fixed a bug where the ZeusMiner frequency would always show 368 even if the value was different<br/></li>
+<li>Added recommended default frequency values for ZeusMiner (328).<br /></li>
+</ul>
 
-<h2>Human Readable Changelog (7-22-14):</h2>
+
+<br />
+<h2>Human Readable Changelog (7-22-14)</h2>
 <ul>
 <li>ZeusMiner Support<br /></li>
 <li>Added BFGMiner 4.3.1 Custom (Darkwinde Fork)<br /></li>
