@@ -6,13 +6,12 @@ ZoomHash-Pi-Software
 <br />
 <br />
 <br />
-<strong>How to Update your Raspberry Pi Software:</strong>
+<h2>How to Update your Raspberry Pi Software</h2>
 You will need to login to your pi via SSH. To do this you need a program called Putty, there are many guides on how to SSH. 
 
-<br />The default username is: pi<br />
+The default username is: pi<br />
 The default password is: zoomhash
 
-<br />
 
 Now you will need to exectue some simple commands, just copy and paste each line and you should be OK!<br /><br />
 cd /var/www<br />
