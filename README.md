@@ -13,8 +13,7 @@ You will need to login to your pi via SSH. To do this you need a program called 
 The default password is: zoomhash
 
 <br />
-<br />
-<br />
+
 Now you will need to exectue some simple commands, just copy and paste each line and you should be OK!<br /><br />
 cd /var/www<br />
 sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git<br />
@@ -22,7 +21,7 @@ cd /var/www/ZoomHash-Pi-Software/<br />
 sudo ./update.sh<br />
 
 
-Human Readable Changelog (7-22-14):<br />
+<h2>Human Readable Changelog (7-22-14):</h2>
 <ul>
 <li>ZeusMiner Support<br /></li>
 <li>Added BFGMiner 4.3.1 Custom (Darkwinde Fork)<br /></li>
