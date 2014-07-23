@@ -1,7 +1,25 @@
 ZoomHash-Pi-Software
 ====================
 
-Software for the company ZoomHash
+<h2>Software for the company ZoomHash</h2>
+
+<br />
+<br />
+<br />
+<strong>How to Update your Raspberry Pi Software:</strong>
+You will need to login to your pi via SSH. To do this you need a program called Putty, there are many guides on how to SSH. 
+
+<br />The default username is: pi<br />
+The default password is: zoomhash
+
+<br />
+<br />
+<br />
+Now you will need to exectue some simple commands, just copy and paste each line and you should be OK!<br /><br />
+cd /var/www<br />
+sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git<br />
+cd /var/www/ZoomHash-Pi-Software/<br />
+sudo ./update.sh<br />
 
 
 Human Readable Changelog (7-22-14):<br />
