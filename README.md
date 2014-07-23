@@ -21,11 +21,7 @@ sudo ./update.sh
 ```
 
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
+
 <h2>Human Readable Changelog (7-23-14)</h2>
 <ul>
 <li>Removed unnecessary files<br /></li>
