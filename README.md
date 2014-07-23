@@ -9,8 +9,8 @@ Works with both Gridseeds and ZeusMiners<br />
 You will need to login to your pi via SSH. To do this you need a program called Putty, there are many guides on how to SSH. 
 
 ```
-The default username is: pi
-The default password is: zoomhash
+Default username: pi
+Default password: zoomhash
 ```
 
 
