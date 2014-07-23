@@ -8,8 +8,10 @@ Works with both Gridseeds and ZeusMiners<br />
 <h2>How to Update your Raspberry Pi Software</h2>
 You will need to login to your pi via SSH. To do this you need a program called Putty, there are many guides on how to SSH. 
 
-The default username is: pi<br />
+```
+The default username is: pi
 The default password is: zoomhash
+```
 
 
 Now you will need to exectue some simple commands, just copy and paste each line and you should be OK!<br /><br />
