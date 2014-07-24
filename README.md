@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ZoomHash Pi Software
 ====================
 ZoomHash Pi Software is a complete solution for all your mining needs.<br />
@@ -55,4 +54,3 @@ sudo ./update.sh
 =======
 ZoomHash-Pi-Software
 ====================
->>>>>>> 8a636bb0e5f0c9a4a4a5c2821db317d0b85f5b23
