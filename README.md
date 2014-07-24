@@ -2,6 +2,7 @@ ZoomHash Pi Software
 ====================
 ZoomHash Pi Software is a complete solution for all your mining needs.<br />
 Works with both Gridseeds and ZeusMiners<br />
+<strong>Last Update: 7-23-14</strong>
 
 <h2>How to Update your Raspberry Pi Software</h2>
 You will need to login to your pi via SSH. To do this you need a program called Putty, there are many guides on how to SSH. 
