@@ -461,7 +461,9 @@ $dv_rigs =  $dv_rigs - 1;
 											echo round(($devfreq / $c) , 0);
 										}
 										else {
-										echo "368";
+											$myFile = "/var/www/conf/minerconfig.dat";
+											$lines = file($myFile);//file in to an array
+											echo $lines[2]; //line 3;
 										}
 										?>
 									</div>
@@ -529,7 +531,8 @@ $dv_rigs =  $dv_rigs - 1;
 
 												<tr class="odd gradeX">
 													<td ><span class="badge badge-warning" data-placement="top" data-toggle="tooltip" data-original-title="Unique name of device connected to Raspberry Pi"><?echo "ZUS".($i);?></span></td>
-													<td><span class="badge badge-info" data-placement="top" data-toggle="tooltip" data-original-title="Speed at which the devices process information">368</span></td>
+													<td><span class="badge badge-info" data-placement="top" data-toggle="tooltip" data-original-title="Speed at which the devices process information"><?$myFile = "/var/www/conf/minerconfig.dat";$lines = file($myFile);//file in to an array
+													echo $lines[2]; //line 3?></span></td>
 													<td><span class="badge badge-success" data-placement="top" data-toggle="tooltip" data-original-title="Number of shares that have been allocated to your account"><?echo $r[$i]['devs']['PGA'.$i]['Accepted'];?></span></td>
 													<td class="center"><span class="badge badge-danger" data-placement="top" data-toggle="tooltip" data-original-title="Work that has arrived too late at the pool and has been rejected"><?php echo $r[$i]["devs"]["PGA".$i]["Rejected"];?></span></td>
 													<td class="center"><span class="badge" data-placement="top" data-toggle="tooltip" data-original-title="Device errors that can sometimes be caused by heightened frequency"><?echo $r[$i]["devs"]["PGA".$i]["Hardware Errors"];?></span></td>
