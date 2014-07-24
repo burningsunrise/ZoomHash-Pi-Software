@@ -51,6 +51,3 @@ sudo ./update.sh
 <li>Removed initial pool settings (rc.local change makes it so we don't have to have default pool information any longer)<br /></li>
 <li>Removed a bug some users were telling me about the pool information wiping when typing in and the page auto refreshed<br /></li>
 </ul>
-=======
-ZoomHash-Pi-Software
-====================
