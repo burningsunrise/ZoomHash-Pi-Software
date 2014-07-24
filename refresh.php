@@ -397,53 +397,27 @@ $dv_rigs =  $dv_rigs - 1;
 									<div class="panel-body">
 										<strong>Pool Url:</strong> 
 										<?
-										$poolz = $q['POOL0']['URL'];
-										if (isset($stats->devices)) {
-										$poolg = $pool->url; 
-										} 
-										if(isset($poolz) && isset($poolg))
-										{
-											echo $poolg;
-										}
-										elseif(isset($poolz))
-										{
-											echo $poolz;
-										}
-										elseif(isset($poolg))
-										{
-											echo $poolg;
-										}
+											$myFile = "/var/www/conf/minerconfig.dat";
+											$lines = file($myFile);//file in to an array
+											echo $lines[3]; //line 4
 										
 										?>
 										<br />
 										<strong>Username.Worker: </strong>
 										<?
-										if (isset($stats->devices)) { 
-										$userg = $pool->user; 
-										} 
-										$userz = $q['POOL0']['User'];
+											$myFile = "/var/www/conf/minerconfig.dat";
+											$lines = file($myFile);//file in to an array
+											echo $lines[4]; //line 5
 										
-										if(isset($userz) && isset($userg))
-										{
-											echo $userg;
-										}
-										elseif(isset($userz))
-										{
-											echo $userz;
-										}
-										elseif(isset($userg))
-										{
-											echo $userg;
-										}
 										
 										
 										?>
 										<br />
-										<strong>Password:</strong> <?if (isset($stats->devices)) { echo $pool->pass; } else {
+										<strong>Password:</strong> <?
 											$myFile = "/var/www/conf/minerconfig.dat";
 											$lines = file($myFile);//file in to an array
 											echo $lines[5]; //line 6
-											}?>
+											?>
 										<br />
 										<strong>Frequency:</strong> <?
 										if (isset($stats->devices))
@@ -459,6 +433,10 @@ $dv_rigs =  $dv_rigs - 1;
 												}
 											}
 											echo round(($devfreq / $c) , 0);
+											echo " & " . 											
+											$myFile = "/var/www/conf/minerconfig.dat";
+											$lines = file($myFile);//file in to an array
+											echo $lines[2]; //line 3
 										}
 										else {
 											$myFile = "/var/www/conf/minerconfig.dat";
