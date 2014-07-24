@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 ZoomHash Pi Software
 ====================
 ZoomHash Pi Software is a complete solution for all your mining needs.<br />
 Works with both Gridseeds and ZeusMiners<br />
+Make sure your device is on for 5 seconds before starting the Pi!<br />
 <strong>Last Update: 7-23-14</strong>
 
 <h2>How to Update your Raspberry Pi Software</h2>
@@ -52,7 +52,3 @@ sudo ./update.sh
 <li>Removed initial pool settings (rc.local change makes it so we don't have to have default pool information any longer)<br /></li>
 <li>Removed a bug some users were telling me about the pool information wiping when typing in and the page auto refreshed<br /></li>
 </ul>
-=======
-ZoomHash-Pi-Software
-====================
->>>>>>> 8a636bb0e5f0c9a4a4a5c2821db317d0b85f5b23
