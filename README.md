@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ZoomHash Pi Software
 ====================
 ZoomHash Pi Software is a complete solution for all your mining needs.<br />
@@ -51,3 +52,7 @@ sudo ./update.sh
 <li>Removed initial pool settings (rc.local change makes it so we don't have to have default pool information any longer)<br /></li>
 <li>Removed a bug some users were telling me about the pool information wiping when typing in and the page auto refreshed<br /></li>
 </ul>
+=======
+ZoomHash-Pi-Software
+====================
+>>>>>>> 8a636bb0e5f0c9a4a4a5c2821db317d0b85f5b23
