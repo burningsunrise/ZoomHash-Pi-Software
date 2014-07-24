@@ -3,7 +3,7 @@ ZoomHash Pi Software
 ZoomHash Pi Software is a complete solution for all your mining needs.<br />
 Works with both Gridseeds and ZeusMiners<br />
 Make sure your device is on for 5 seconds before starting the Pi!<br />
-<strong>Last Update: 7-23-14</strong>
+<strong>Last Update: 7-24-14</strong>
 
 <h2>How to Update your Raspberry Pi Software</h2>
 You will need to login to your pi via SSH. To do this you need a program called Putty, there are many guides on how to SSH. 
@@ -21,6 +21,16 @@ sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
 cd /var/www/ZoomHash-Pi-Software
 sudo ./update.sh
 ```
+
+
+<br />
+
+<h2>Human Readable Changelog (7-24-14)</h2>
+<ul>
+<li>Added default values for frequency (highly requested) default value for Gridseed is 800, and ZeusMiner is 328<br /></li>
+<li>Fixed a bug with file permission of the minerconfig.dat, nothing too pressing but was bugging me!<br/></li>
+<li>Added reading from minerconfig.dat so you don't have to wait to see your settings, previously pulled from the miner directly, but I can see how this would cause people to think that their setting are not saved.<br /></li>
+</ul>
 
 <br />
 
