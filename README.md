@@ -31,6 +31,8 @@ sudo ./update.sh
 <h2>Human Readable Changelog (9-12-14)</h2>
 <ul>
 <li>Small visual bug change, would show the directory instead of the array<br /></li>
+<li>Default value for ZeusMiners is now set to 240 due to the new X6's coming out</li>
+<li>Added Chip count for Thunder X6 and Lightning X6</li>
 </ul>
 
 <br />
