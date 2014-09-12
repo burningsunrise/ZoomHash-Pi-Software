@@ -171,7 +171,7 @@ if(isset($_POST['poolinfoupdate']))
 											<label>Update Gridseed Frequency</label> <input value="800" type="gfreq" name="gfreq" placeholder="800" class="form-control">
 										</div> 	
 										<div class="form-group"> 
-											<label>Update Zeus Frequency</label> <input value="328" type="zfreq" name="zfreq" placeholder="368" class="form-control">
+											<label>Update Zeus Frequency</label> <input value="240" type="zfreq" name="zfreq" placeholder="368" class="form-control">
 										</div> 														
 										<button class="btn btn-primary" name="poolinfoupdate" type="submit">Submit</button>
 									</form>
