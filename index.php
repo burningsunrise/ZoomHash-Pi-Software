@@ -146,7 +146,9 @@ if(isset($_POST['poolinfoupdate']))
 											 (Hurricane X2: 48) || 
 											 (Hurricane X3: 64) || 
 											 (Thunder X2: 96) || 
-											 (Thunder X3: 128)
+											 (Thunder X3: 128) ||
+											 (Thunder X6: 128) ||
+											 (Lightning X6: 256)
 											</label>
 										</div>										
 										<div class="form-group">
