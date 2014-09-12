@@ -28,6 +28,13 @@ sudo ./update.sh
 
 <br />
 
+<h2>Human Readable Changelog (9-12-14)</h2>
+<ul>
+<li>Small visual bug change, would show the directory instead of the array<br /></li>
+</ul>
+
+<br />
+
 <h2>Human Readable Changelog (7-24-14)</h2>
 <ul>
 <li>Added default values for frequency (highly requested) default value for Gridseed is 800, and ZeusMiner is 328<br /></li>
