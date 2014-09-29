@@ -433,10 +433,15 @@ $dv_rigs =  $dv_rigs - 1;
 												}
 											}
 											echo round(($devfreq / $c) , 0);
-											echo " & " ; 											
 											$myFile = "/var/www/conf/minerconfig.dat";
 											$lines = file($myFile);//file in to an array
-											echo $lines[2]; //line 3
+											if($lines[0] >= 0)
+											{
+												echo " & " ; 											
+											
+
+												echo $lines[2]; //line 3
+											}
 										}
 										else {
 											$myFile = "/var/www/conf/minerconfig.dat";
