@@ -25,6 +25,15 @@ cd /var/www/ZoomHash-Pi-Software
 sudo ./update.sh
 ```
 
+<br />
+
+<h2>Human Readable Changelog (9-29-14)</h2>
+<ul>
+<li>Another visual bug fixed, added conditional to check for 1 or more ZeusMiners and then display the frequency.<br /></li>
+</ul>
+
+<br />
+
 
 <br />
 
