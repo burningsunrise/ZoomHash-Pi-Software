@@ -24,6 +24,17 @@ sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
 cd /var/www/ZoomHash-Pi-Software
 sudo ./update.sh
 ```
+<br />
+
+<h2>Human Readable Changelog (10-01-14)</h2>
+<ul>
+<li>Added logging for both Zeusminers and Gridseeds.<br /></li>
+<li>Added startup file to repository so logging arguments can be added.</li>
+<li>Fixed logic and some visual bugs.</li>
+<li>Updated update.sh to include startup file</li>
+</ul>
+
+<br />
 
 <br />
 
