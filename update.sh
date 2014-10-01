@@ -5,6 +5,7 @@ echo "Please wait while the changes are made to your system, may take a minute o
 sudo cp -a /var/www/ZoomHash-Pi-Software/. /var/www
 sudo cp -a /var/www/ZoomHash-Pi-Software/startup.sh /home/pi/start.sh
 sudo chown -R pi /var/www
+sudo chown -R pi /home/pi/start.sh
 sudo chmod 777 /var/www/conf/minerconfig.dat
 sudo rm -rf /var/www/conf/miner_conf.json
 sudo rm -rf /var/www/ZoomHash-Pi-Software/
