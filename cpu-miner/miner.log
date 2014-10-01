@@ -22243,3 +22243,78 @@
 [2014-10-01 18:18:24] Accepted 00208e5a GSD 1@0
 [2014-10-01 18:18:27] Accepted 6683d1d0 GSD 0@2
 [2014-10-01 18:18:33] New Job_id: 1412187512 51451 Diff: 64 Work_id: 454b305b
+[2014-10-01 18:18:46] Rejected cd03d140 GSD 1@4
+[2014-10-01 18:18:46] DEBUG: reject reason: unknown-work
+[2014-10-01 18:18:46] Accepted 00005b4d GSD 1@0
+[2014-10-01 18:18:53] Accepted 666d812d GSD 1@2
+[2014-10-01 18:18:59] Accepted 3340eb30 GSD 1@1
+[2014-10-01 18:19:01] Rejected 33738669 GSD 0@1
+[2014-10-01 18:19:01] DEBUG: reject reason: unknown-work
+[2014-10-01 18:19:03] Accepted 33355333 GSD 0@1
+[2014-10-01 18:19:07] Accepted ccd27827 GSD 0@4
+[2014-10-01 18:19:08] Accepted 99a08eaf GSD 0@3
+[2014-10-01 18:19:28] New Job_id: 1412187567 51452 Diff: 64 Work_id: 45b0b3f5
+[2014-10-01 18:19:28] Accepted 6681bbe5 GSD 0@2
+[2014-10-01 18:19:29] Accepted cccd88ce GSD 1@4
+[2014-10-01 18:19:37] Stratum detected new block
+[2014-10-01 18:19:37] New Job_id: 1412187576 51453 Diff: 64 Work_id: 45b9bc47
+[2014-10-01 18:19:39] Accepted 999a9f35 GSD 0@3
+[2014-10-01 18:19:40] New Job_id: 1412187579 51454 Diff: 64 Work_id: 45b9bc47
+[2014-10-01 18:19:40] Accepted 0002e0ac GSD 1@0
+[2014-10-01 18:19:44] Accepted 66695b3b GSD 1@2
+[2014-10-01 18:19:46] Accepted 3338667e GSD 1@1
+[2014-10-01 18:19:47] Accepted ccd5f8fc GSD 0@4
+[2014-10-01 18:19:47] Accepted 666cc851 GSD 1@2
+[2014-10-01 18:19:51] Accepted 99a40a6b GSD 1@3
+[2014-10-01 18:19:51] Accepted 0004e89c GSD 0@0
+[2014-10-01 18:19:54] Accepted 6673ff74 GSD 1@2
+[2014-10-01 18:20:11] Accepted 99b8dc55 GSD 1@3
+[2014-10-01 18:20:19] Accepted 99c0f911 GSD 1@3
+[2014-10-01 18:20:20] Accepted 99c1da82 GSD 1@3
+[2014-10-01 18:20:21] Accepted 668a4bcc GSD 0@2
+[2014-10-01 18:20:26] Accepted 99c866ec GSD 1@3
+[2014-10-01 18:20:34] Accepted cd03063a GSD 1@4
+[2014-10-01 18:20:35] New Job_id: 1412187634 51455 Diff: 64 Work_id: 45b9bc47
+[2014-10-01 18:20:43] Stratum detected new block
+[2014-10-01 18:20:43] New Job_id: 1412187641 51456 Diff: 64 Work_id: 45fb8f1a
+[2014-10-01 18:20:47] New Job_id: 1412187646 51457 Diff: 64 Work_id: 45fb8f1a
+[2014-10-01 18:20:58] Accepted 000f31e7 GSD 0@0
+[2014-10-01 18:21:08] Accepted cce5c709 GSD 1@4
+[2014-10-01 18:21:11] Accepted 0002efec GSD 1@0
+[2014-10-01 18:21:12] Accepted 3337a993 GSD 1@1
+[2014-10-01 18:21:20] Accepted 99aff321 GSD 0@3
+[2014-10-01 18:21:23] Accepted 334cbfe2 GSD 0@1
+[2014-10-01 18:21:25] Accepted 334ed4c6 GSD 0@1
+[2014-10-01 18:21:33] New Job_id: 1412187693 51459 Diff: 64 Work_id: 45fb8f1a
+[2014-10-01 18:21:34] Rejected 99b458a0 GSD 1@3
+[2014-10-01 18:21:34] DEBUG: reject reason: unknown-work
+[2014-10-01 18:21:34] Accepted 999a5694 GSD 1@3
+[2014-10-01 18:21:38] Rejected 668ec487 GSD 0@2
+[2014-10-01 18:21:38] DEBUG: reject reason: unknown-work
+[2014-10-01 18:21:39] Accepted 999b80d8 GSD 0@3
+[2014-10-01 18:21:39] Accepted 999f95b9 GSD 1@3
+[2014-10-01 18:21:44] Accepted 0006b2af GSD 0@0
+[2014-10-01 18:21:48] Stratum detected new block
+[2014-10-01 18:21:48] New Job_id: 1412187706 51460 Diff: 64 Work_id: 463c87e9
+[2014-10-01 18:21:50] New Job_id: 1412187708 51461 Diff: 64 Work_id: 463c87e9
+[2014-10-01 18:21:58] Accepted 99a384ec GSD 0@3
+[2014-10-01 18:22:02] Accepted ccd11324 GSD 0@4
+[2014-10-01 18:22:04] Accepted 666c57c3 GSD 0@2
+[2014-10-01 18:22:05] Accepted 666d6ba7 GSD 0@2
+[2014-10-01 18:22:08] Accepted 001473c5 GSD 1@0
+[2014-10-01 18:22:16] Accepted 667977c0 GSD 0@2
+[2014-10-01 18:22:17] Stratum detected new block
+[2014-10-01 18:22:17] New Job_id: 1412187736 51462 Diff: 64 Work_id: 4659f661
+[2014-10-01 18:22:18] Rejected ccd5ac22 GSD 1@4
+[2014-10-01 18:22:18] DEBUG: reject reason: unknown-work
+[2014-10-01 18:22:19] Accepted 0001119a GSD 1@0
+[2014-10-01 18:22:20] New Job_id: 1412187739 51463 Diff: 64 Work_id: 4659f661
+[2014-10-01 18:22:20] Accepted 66692b41 GSD 0@2
+[2014-10-01 18:22:22] Stratum detected new block
+[2014-10-01 18:22:22] New Job_id: 1412187741 51464 Diff: 64 Work_id: 465e1bcf
+[2014-10-01 18:22:25] New Job_id: 1412187745 51465 Diff: 64 Work_id: 465e1bcf
+[2014-10-01 18:22:25] Accepted 666862d4 GSD 1@2
+[2014-10-01 18:22:25] Accepted 3335d450 GSD 0@1
+[2014-10-01 18:22:26] Accepted 00038e69 GSD 1@0
+[2014-10-01 18:22:37] Accepted 99a58923 GSD 0@3
+[2014-10-01 18:22:38] Accepted 99a5afff GSD 1@3

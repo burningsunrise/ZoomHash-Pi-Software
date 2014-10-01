@@ -105,6 +105,43 @@ setInterval(function(){ countdown(); },1000);
 						<?php include("refresh.php");?>
 					</div>
 
+					<div class="block-flat" style="width: 45%; float: left;">
+					<div class="header"><h3>Gridseed Log File</h3></div>
+						<div class="content">
+							<pre class="log-box" style="height: 290px;">
+							<?php 
+								if (isset($stats->devices))
+								{
+									include("tail.php");
+								}
+								else
+								{
+									echo "<center>No log file to show!</center>";
+								}
+							?>
+							</pre>
+						</div>
+					</div>
+					<div class="block-flat" style="width:45%; float: right;">
+					<div class="header"><h3>Zeus Log File</h3></div>
+						<div class="content">
+							<pre class="log-box" style="height: 290px;">
+							<?php
+							$myFile = "/var/www/conf/minerconfig.dat";
+							$lines = file($myFile);//file in to an array
+							if($lines[0] >= 0)
+							{
+								include("tail2.php");
+							}
+							else
+							{
+								echo "<center>No log file to show!</center>";
+							}	
+							?>
+							</pre>
+						</div>
+					</div>
+		
 						<div class="col-sm-6 col-md-6" style="width: 100%;">
 							<div class="block-flat">
 								<div class="header">							
@@ -137,8 +174,7 @@ if(isset($_POST['poolinfoupdate']))
 
 }
 ?>
-
-									<form onSubmit="alert('Your Pi will be rebooted and this page will refresh once the Pi is rebooted!');" role="form" class="update-pool" id="update-pool" enctype="multipart/form-data" action="/index.php" method="post" style="border-style:none hidden;"> 
+									<form onSubmit="alert('Restarting miner with the new configuration!');" role="form" class="update-pool" id="update-pool" enctype="multipart/form-data" action="/index.php" method="post" style="border-style:none hidden;"> 
 										<div class="form-group">
 											<label style="color: black;">ZeusMiner Chips: <br />
 											(Blizzard: 6) || 

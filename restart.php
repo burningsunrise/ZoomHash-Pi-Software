@@ -1,7 +1,7 @@
 <?
 
 shell_exec('./restart.sh');
-sleep(15);
+sleep(5);
 header('Location: index.php');
 
 ?>

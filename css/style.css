@@ -196,12 +196,7 @@ blockquote.pull-right {
 .fa-spin {
   animation: 1.2s linear 0s normal none infinite spin;
 }
-/*Pre & Code*/
-pre {
-  border-radius: 2px;
-  -webkit-border-radius: 2px;
-  margin-top: 10px;
-}
+
 /*CONTENT*/
 .cont h2 {
   font-family: "Raleway", Helvetica, sans-serif;
@@ -7844,3 +7839,10 @@ ul.timeline li > .date {
     display: none;
   }
 }
+
+.log-box {
+font-size: 11px;
+min-height: 220px;
+overflow: hidden;
+}
+
