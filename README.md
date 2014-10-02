@@ -4,7 +4,7 @@ ZoomHash Pi Software
 ZoomHash Pi Software is a complete solution for all your mining needs.<br />
 Works with both Gridseeds and ZeusMiners<br />
 Make sure your device is on for 5 seconds before starting the Pi!<br /><br />
-<strong>Flashable 7-21-14 image located here: http://p.lewd.es/zeusgrid-7-21-14.img.gz<br /><br />
+<strong>Flashable 10-2-14 image located here: http://p.lewd.es/10-2-2014-zsoft.img.gz<br /><br />
 You will need to follow update instructions to make it 100% up to date but this will get you up and running if you are just looking for a flashable solution and not wanting to update</strong><br /><br />
 
 
