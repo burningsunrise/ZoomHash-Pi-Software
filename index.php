@@ -81,6 +81,9 @@ setInterval(function(){ countdown(); },1000);
 							<center style="color: #fff;">sudo screen -r grid</center>
 							<center>To exit screens</center>
 							<center style="color: #fff;">ctrl+a then ctrl+d</center>
+							<br />
+							<br />
+							<center style="color: #fff;">Donation: 1PEYi7pPTNhXF5hZYDxbQzQd211Zy7sFa1</center>
 							
 								
 						</ul>
