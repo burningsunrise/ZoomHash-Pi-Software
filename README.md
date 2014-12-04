@@ -24,7 +24,34 @@ sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
 cd /var/www/ZoomHash-Pi-Software
 sudo ./update.sh
 ```
-<br />
+<br /><br />
+<h2>Manual Install</h2>
+You'll need to have some basic Linux knowledge to do this but it's not too difficult just copy and paste and you should be fine!
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install -y lighttpd php5-cgi
+sudo lighty-enable-mod fastcgi
+sudo lighty-enable-mod fastcgi-php
+sudo service lighttpd force-reload
+
+sudo apt-get install -y git screen php5-cli php5-curl
+cd /var/www
+sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
+cd /var/www/ZoomHash-Pi-Software
+sudo ./update.sh
+```
+
+<br /><br />
+<h2>Manual Install (Web server & php installed will install to a new directory called zoomhash so it will be http://yourip/ZoomHash/)</h2>
+```
+cd /var/www
+mkdir ZoomHash
+cd /var/www/ZoomHash
+sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
+cd /var/www/ZoomHash-Pi-Software
+sudo ./update.sh
+```
 
 <h2>Human Readable Changelog (10-01-14)</h2>
 <ul>
