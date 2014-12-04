@@ -51,7 +51,16 @@ cd /var/www/ZoomHash
 sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
 cd /var/www/ZoomHash-Pi-Software
 sudo ./update.sh
+
+sudo nano /etc/rc.local
 ```
+a new text document will open up add this to it:
+```
+bash /home/pi/start.sh
+```
+before exit
+
+and then you are good to go!<br /><br />
 
 <h2>Human Readable Changelog (10-01-14)</h2>
 <ul>
