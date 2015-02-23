@@ -35,7 +35,7 @@ sudo lighty-enable-mod fastcgi
 sudo lighty-enable-mod fastcgi-php
 sudo service lighttpd force-reload
 
-sudo apt-get install -y git screen php5-cli php5-curl
+sudo apt-get install -y git screen php5-cli php5-curl libjansson4
 cd /var/www
 sudo git clone https://github.com/nvreaver/ZoomHash-Pi-Software.git
 cd /var/www/ZoomHash-Pi-Software
