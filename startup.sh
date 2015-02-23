@@ -71,7 +71,7 @@ if [ -n "$grid_exist" ]
 		
 			cd /var/www/cpu-miner
 		
-				sudo screen -dmS grid ./minerd  -G $count2 --api-port=4027 -F ${line[7]} -o ${line[3]} -u ${line[4]} -p ${line[5]} --log=/var/www/cpu-miner/miner.log
+				sudo screen -dmS grid ./minerd  -G $count2 --api-port=4027 -F ${line[7]} --url=${line[3]} -u ${line[4]} -p ${line[5]} --log=/var/www/cpu-miner/miner.log
 		fi
 		
 fi
